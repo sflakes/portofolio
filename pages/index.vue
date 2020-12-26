@@ -3,6 +3,7 @@
     <div class="container">
       <Header />
       <Intro />
+      <Projects />
       <Stack />
       <Footer />
     </div>
