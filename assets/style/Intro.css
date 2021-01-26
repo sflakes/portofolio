@@ -1,0 +1,101 @@
+.introContainer {
+  margin-top: 5%;
+  display: flex;
+  justify-content: space-between;
+  /* background-color: turquoise; */
+}
+
+.imageIntro {
+  width: 30rem;
+  height: 15rem;
+}
+
+.textIntro {
+  width: 40rem;
+  height: 15rem;
+  font-weight: 800;
+  color: white;
+}
+
+.textAnimation {
+  display: flex;
+}
+
+#spin {
+  color: #6c63ff;
+}
+
+span {
+  font-size: 35px;
+}
+
+#spin:after {
+  content: "";
+  animation: spin 5s ease-in-out infinite;
+  margin-left: 10px;
+}
+
+@keyframes spin {
+  0% {
+    content: " FAJAR";
+  }
+
+  100% {
+    content: " A JUNIOR F.E. ENGINEER";
+  }
+}
+
+@media only screen and (max-width: 455px) {
+  .introContainer {
+    margin-top: 5%;
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    /* background-color: turquoise; */
+  }
+
+  .imageIntro {
+    width: 20rem;
+    margin: auto;
+    height: 10rem;
+  }
+  
+  .textIntro {
+      text-align: center;
+      margin: auto;
+    width: 20rem;
+    height: 15rem;
+    font-weight: 800;
+    color: white;
+  }
+  
+  .textAnimation {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  #spin {
+    color: #6c63ff;
+  }
+  
+  span {
+    font-size: 35px;
+  }
+  
+  #spin:after {
+    content: "";
+    animation: spin 5s ease-in-out infinite;
+    margin-left: 10px;
+  }
+  
+  @keyframes spin {
+    0% {
+      content: " FAJAR";
+    }
+  
+    100% {
+      content: " A JUNIOR F.E. ENGINEER";
+    }
+  }
+  
+}

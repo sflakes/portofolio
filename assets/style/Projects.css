@@ -1,0 +1,29 @@
+.project {
+  margin-top: 5rem;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+article.card.mb-5 {
+  background-color: #6159E6;
+}
+
+.card-body {
+  text-align: center;
+
+}
+
+.card-title {
+  color: white;
+}
+
+.card-text {
+  color: white;
+}
+
+@media only screen and (max-width: 455px) {
+    .project {
+        margin-top: 1rem;
+    }
+}
